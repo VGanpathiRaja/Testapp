@@ -1,0 +1,144 @@
+.heading
+{
+font-family: Poppins;
+font-size: 36px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal
+line-height 1.53;
+letter-spacing: normal;
+text-align: left;
+color: black;
+margin: 20px 0;
+box-shadow: 2px 2px 10px 0px goldenrod;
+background-color: lightgoldenrodyellow;
+}
+.filterPanel
+{
+height: 682px;
+box-shadow: 5px 5px 10px 0px rgb(100, 100, 170);
+background-color: rgb(181, 197, 202);
+padding: 15px;
+}
+.resultsPanel
+{
+    background-image: url("../../public/img/car.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 300px;
+    height: 291px;
+    box-shadow: 5px 5px 10px 0px palevioletred;
+    margin-bottom: 30px;
+}
+.filterPanelHeading
+{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #192f60;
+}
+.filterPanelSubHeading
+{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 15px 0;
+}
+.locationSelection
+{
+    height: 35px;
+    width: 100%;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #192f60;
+}
+.cuisineOption
+{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 10px;   
+}
+.upperSection
+{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.lowerSection
+{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.resultsImage
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.resultsHeading
+{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #df42da;
+}
+.resultsSubHeading
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5420b;
+}
+.resultsAddress
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020502;
+}
+.pagination
+{
+    display: flex;
+    padding-left: 30%;
+}
+.paginationButton
+{
+border: 1px solid black;
+height: 30px;
+width: 30px;
+margin: 0 10px;
+text-align: center;
+border-radius: 5px;
+padding-top: 2px;
+}

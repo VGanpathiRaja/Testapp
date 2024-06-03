@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.top-sec{
+    background-image: url('../../public/img/car.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.heading-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 65px;
+    background: aliceblue;
+    padding: 4px;
+    border-radius: 50%;
+}
+.heading-part h1{
+    font-size: 38px;
+    font-weight: 900;
+    color: #fff;
+}
+.heading-part h1 span{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 56px;
+}
+.heading-part form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading-part form select{
+    height: 40px;
+    font-size: 30px;
+    padding: 0px;
+    margin: 5px;
+    outline: none;
+}
+.heading-part form input {
+        outline: none;
+    height: 40px;
+    padding: 0px;
+    margin: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+.sec-padd{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec-first{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.head-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-icon img{
+    width: 40px;
+}
+.head-icon .hr{
+    border: 1px solid #198754;
+    width: 50px;
+    margin-top: 21px;
+}
+.box{
+    background-color: #fff;
+    padding: 25px 10px;
+    text-align: center;
+    height: 235px;
+}
+.box img{
+    width: 115px;
+    padding: 10px;
+}
+.box h4{
+    font-weight: 800;
+    padding: 5px;
+}
